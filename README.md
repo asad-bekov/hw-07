@@ -29,6 +29,8 @@ rsync -av --checksum --exclude='.*' ~/ /tmp/backup/
 
 ### Скриншоты
 
+**Cкриншот терминала с результатом выполнения команды:**
+
 ![](https://github.com/asad-bekov/hw-07/blob/main/img/img1.png)
 
 ---
@@ -77,7 +79,17 @@ logger -t backup_script "Скрипт резервного копировани�
 ```
 
 ### Скриншоты
+
+**Вывод команды `crontab -l`:**
+
 ![](https://github.com/asad-bekov/hw-07/blob/main/img/img2.png)
+
+**Вывод команды `sudo journalctl -t backup_script`:**
+
 ![](https://github.com/asad-bekov/hw-07/blob/main/img/img3.png)
+---
 ![](https://github.com/asad-bekov/hw-07/blob/main/img/img4.png)
+
+**Вывод команды `ls -l /tmp/backup`:**
+
 ![](https://github.com/asad-bekov/hw-07/blob/main/img/img5.png)
